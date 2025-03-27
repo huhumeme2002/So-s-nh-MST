@@ -267,7 +267,7 @@ def update_current_company():
         lbl_current_company.configure(text=f"Đang xử lý: {tax_id}")
     app.after(100, update_current_company)
 
-# Các hàm giao diện
+
 def change_theme(new_theme):
     ctk.set_appearance_mode(new_theme)
 
